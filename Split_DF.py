@@ -1,7 +1,7 @@
 import pandas as pd
 
-df = pd.DataFrame({'Sales':[10,20,30,40,50], 'A':[3,4,7,6,1], 'Shipper':['Fedex', 'Fedex', 'UPS', 'UPS', 'Conway']})
-#print (df)
+df = pd.DataFrame({'Tracking Number':['10X4R3W','30X5R3W','20X6R3W','70X4R3W','80X7R3W'], 'A':[3,4,7,6,1], 'Shipper':['Fedex', 'Fedex', 'UPS', 'UPS', 'Conway']})
+print (df)
 
 s = 30
 
@@ -16,3 +16,4 @@ print(df2)
 print ()
 print(df3)
 print ()
+
